@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apk="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    apk:cardBackgroundColor="#000048FF"
+    apk:cardCornerRadius="0dp"
+    apk:cardElevation="0dp"
+    apk:layout_anchorGravity="center"
+    app:cardElevation="10dp"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+            <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                apk:borderColor="@color/colorBlue"
+                app:borderWidth="2dp"
+                app:cornerRadius="8dp">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/emailField1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/agency"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+
+                    android:paddingStart="15dp"
+                    android:text=""
+                    android:textColor="@color/colorBlue"
+                    android:textColorHint="@color/colorBlue"
+
+                    android:textSize="25sp"
+                    apk:met_primaryColor="@color/colorBlue"
+                    apk:met_underlineColor="#2196F3"
+                    app:met_baseColor="@color/colorBlue"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorBlue"
+                    app:met_singleLineEllipsis="true"
+                    tools:ignore="RtlSymmetry" />
+
+
+            </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            apk:borderColor="@color/colorBlue"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/passField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/agency"
+                android:hint="@string/passworld"
+                android:inputType="text|textPassword"
+                android:paddingStart="15dp"
+                android:text=""
+                android:textSize="25sp"
+                apk:met_primaryColor="@color/colorBlue"
+                apk:met_underlineColor="#2196F3"
+                app:met_baseColor="@color/colorBlue"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorBlue"
+                app:met_singleLineEllipsis="true"
+                tools:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                app:ignore="RtlHardcoded" />
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:accessibilityLiveRegion="none"
+            android:allowUndo="false"
+            android:background="@drawable/btn_log5"
+            android:buttonTint="@color/colorBlue1"
+            android:checked="false"
+            android:duplicateParentState="false"
+            android:fontFamily="serif"
+            android:text="@string/zapomnit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack"
+            android:textColorHighlight="@color/colorBlack"
+            android:textColorHint="@color/colorPrimary" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

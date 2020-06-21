@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kurs1"
+    android:background="@drawable/back20">
+
+    <include
+        android:id="@+id/toolbar3"
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <Button
+                android:id="@+id/grop1.1"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_1"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.2"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_2"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.3"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_3"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.4"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_4"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.5"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_5"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.6"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_6"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.7"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_7"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.8"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_8"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.9"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_9"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.10"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_10"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.11"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_11"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.12"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_12"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.13"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_13"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.14"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_14"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.15"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_15"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.16"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_16"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.17"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_17"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/grop1.18"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_18"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/grop1.19"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_grop"
+                android:fontFamily="serif"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/grop1_19"
+                android:textColor="@color/colorWhite"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tv_innov"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp" />
+</RelativeLayout>

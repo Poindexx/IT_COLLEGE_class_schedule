@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etaj5"
+    android:background="@drawable/back20">
+
+    <include
+        android:id="@+id/toolbar3"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:shadowColor="@color/colorWhite"
+            android:text="@string/tv_kobinet"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/k501"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="501"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k503"
+                android:layout_width="55dp"
+                android:layout_marginStart="2dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="503"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k505"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="505"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k507"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="507"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k509"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="509"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k511"
+                android:layout_width="55dp"
+                android:layout_marginStart="2dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="511"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/k502"
+                android:layout_marginStart="2dp"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="502"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k504"
+                android:layout_width="55dp"
+                android:layout_marginStart="2dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="504"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+
+            <Button
+                android:id="@+id/k506"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="506"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k508"
+                android:layout_width="55dp"
+                android:layout_marginStart="2dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:text="508"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/k510"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btn_grop1"
+                android:fontFamily="serif"
+                android:layout_marginStart="2dp"
+                android:text="510"
+                android:textColor="@color/colorBlue2"
+                android:textSize="22sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tv_innov"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>

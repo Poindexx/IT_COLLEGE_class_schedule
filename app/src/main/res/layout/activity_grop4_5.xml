@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grop4_5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:background="@drawable/back_ob"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:text="@string/grop4_5"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/back_page"
+                    android:layout_width="74dp"
+                    android:layout_height="66dp"
+                    android:paddingStart="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/btn_back" />
+
+                <ImageView
+                    android:id="@+id/home_page"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/home2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="403dp"
+                android:orientation="vertical"
+                android:paddingTop="127dp">
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="192dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="228dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="144dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="177dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="391dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="46dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі және экономтка негіздері"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="192dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="228dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="144dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="177dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="391dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="46dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі және экономтка негіздері"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="192dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="228dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="144dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="177dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="391dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="46dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі және экономтка негіздері"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="192dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="228dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="144dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="177dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="391dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="46dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі және экономтка негіздері"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="192dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="228dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="144dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="177dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="391dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="46dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі және экономтка негіздері"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="392dp"
+                android:orientation="vertical"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="505"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.112"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="192dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="196dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="228dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="144dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="148dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="177dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.026"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="96dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="129dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="391dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Понедельник"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="29dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="46dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Қазақ тілі және экономтка негіздері"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="298dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="13:30-15:00"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Ахмет Баян"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="Инновационный Технический Колледж"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="Was created by"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textAuthor" />
+
+                <TextView
+                    android:id="@+id/textAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="@string/author"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

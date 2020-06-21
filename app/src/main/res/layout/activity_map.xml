@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back20"
+    tools:context=".MapActivity">
+
+    <include
+        android:id="@+id/toolbar3"
+        layout="@layout/toolbar"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/kob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_kobinet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/tv_kobineti"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/etaj3"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/etaj3"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/etaj5"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/etaj5"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/etaj6"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/etaj6"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/etaj7"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/etaj7"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mugalim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_log2"
+            android:fontFamily="@font/centurygothic"
+            android:padding="3dp"
+            android:text="@string/tv_prepodavateli"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drug"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/serif"
+            android:text="@string/tv_pogroup"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/kurs1"
+                android:layout_width="175dp"
+                android:layout_height="36dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/kurs1"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/kurs2"
+                android:layout_width="175dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/kurs2"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/kurs3"
+                android:layout_width="175dp"
+                android:layout_height="36dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/kurs3"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/kurs4"
+                android:layout_width="175dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn_log2"
+                android:fontFamily="@font/centurygothic"
+                android:text="@string/kurs4"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tv_innov"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp" />
+
+</RelativeLayout>

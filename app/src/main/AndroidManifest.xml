@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.itcollege.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        android:supportsPictureInPicture="false"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".mugalim4" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".mugalim3" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".mugalim2" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".mugalimder" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".kurs1" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".kurs2" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".kurs3" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".etaj7" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".etaj6" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".etaj5" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".etaj3" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".mugalim" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".grop4_1" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".grop4_5" android:screenOrientation="portrait"/>
+        <activity android:name=".kurs4" android:screenOrientation="portrait"
+            android:parentActivityName=".MapActivity"></activity>
+        <activity android:name=".MapActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Logo_Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

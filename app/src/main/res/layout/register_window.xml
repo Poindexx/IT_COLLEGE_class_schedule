@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apk="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    apk:cardBackgroundColor="#00000DFF"
+    apk:cardCornerRadius="0dp"
+    apk:cardElevation="0dp"
+    app:cardElevation="10dp"
+    app:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#00000DFF"
+        android:orientation="vertical">
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apk:borderColor="@color/colorBlue"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/emailField1"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/agency"
+
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="15dp"
+                android:text=""
+                android:textColor="@color/colorBlue"
+                android:textColorHint="@color/colorBlue"
+                android:textSize="22sp"
+                apk:met_primaryColor="@color/colorBlue"
+
+                apk:met_underlineColor="#2196F3"
+                app:met_baseColor="@color/colorBlue"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorBlue"
+                app:met_singleLineEllipsis="true"
+                app:ignore="RtlSymmetry" />
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apk:borderColor="@color/colorBlue"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/passField"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/agency"
+                android:hint="@string/passworld"
+                android:inputType="text|textPassword"
+                android:paddingStart="15dp"
+                android:text=""
+                android:textColor="@color/colorBlue"
+                android:textColorHint="@color/colorBlue"
+                android:textSize="22sp"
+                apk:met_primaryColor="@color/colorBlue"
+                apk:met_underlineColor="#2196F3"
+
+                app:met_baseColor="@color/colorBlue"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorBlue"
+                app:met_singleLineEllipsis="true"
+                app:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                app:ignore="RtlHardcoded" />
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apk:borderColor="@color/colorBlue"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/nameField"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/agency"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:paddingStart="15dp"
+                android:text=""
+                android:textColor="@color/colorBlue"
+                android:textColorHint="@color/colorBlue"
+                android:textSize="22sp"
+                apk:met_primaryColor="@color/colorBlue"
+                apk:met_underlineColor="#2196F3"
+
+                app:met_baseColor="@color/colorBlue"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="#@color/colorBlue"
+                app:met_singleLineEllipsis="true"
+                app:ignore="RtlSymmetry" />
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            apk:borderColor="@color/colorBlue"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phoneField"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/agency"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:paddingStart="15dp"
+                android:text=""
+                android:textColor="@color/colorBlue"
+                android:textColorHint="@color/colorBlue"
+                android:textSize="22sp"
+                apk:met_primaryColor="@color/colorBlue"
+                apk:met_underlineColor="#2196F3"
+
+                app:met_baseColor="@color/colorBlue"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorBlue"
+                app:met_singleLineEllipsis="true"
+                app:ignore="RtlSymmetry" />
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

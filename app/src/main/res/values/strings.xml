@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">IT COLLEGE</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="no_reg">У вас еще нет аккаунта?</string>
+    <string name="log">Войти</string>
+    <string name="author"><a href="https://www.instagram.com/poindexx/">@Poindexx</a></string>
+    <string name="grop4_1">МГКП 16-09 К</string>
+    <string name="grop4_2">АжБ 16-09 К</string>
+    <string name="grop4_3">ЕТжБК 16-09 К1</string>
+    <string name="grop4_4">ВТиПО 16-09 Р1</string>
+    <string name="grop4_5">ЕТжБК 16-09 К2</string>
+    <string name="grop4_6">ВТиПО 16-09 Р2</string>
+
+    <string name="grop3_1">П 17-09 К</string>
+    <string name="grop3_2">П-1 17-09 Р</string>
+    <string name="grop3_3">П-2 17-09 Р</string>
+    <string name="grop3_4">П-3 17-09 Р</string>
+    <string name="grop3_5">ТЗИ 17-09 Р</string>
+    <string name="grop3_6">АЖ 17-09 К</string>
+    <string name="grop3_7">МГКП 17-09 К</string>
+    <string name="grop3_8">МК 17-09 К</string>
+    <string name="grop3_9">МК 17-09 Р</string>
+    <string name="grop3_10">ЕжА 17-09 К</string>
+    <string name="grop3_11">Э 17-09 Р</string>
+
+    <string name="grop2_1">П 18-09 Р</string>
+    <string name="grop2_2">П-1 18-09 К</string>
+    <string name="grop2_3">П-2 18-09 К</string>
+    <string name="grop2_4">Пд-1 18-09 Р</string>
+    <string name="grop2_5">Пд-2 18-09 Р</string>
+    <string name="grop2_6">Пд-3 18-09 Р</string>
+    <string name="grop2_7">ТЗИ 18-09 Р</string>
+    <string name="grop2_8">ТЗИд 18-09 Р</string>
+    <string name="grop2_9">АҚТ 18-09 К</string>
+    <string name="grop2_10">ИС 18-09 Р</string>
+    <string name="grop2_11">АЖ 18-09 К</string>
+    <string name="grop2_12">АЖд 18-09 К</string>
+    <string name="grop2_13">МК-1 18-09 Р</string>
+    <string name="grop2_14">МК-2 18-09 Р</string>
+    <string name="grop2_15">МК-3 18-09 К</string>
+    <string name="grop2_16">МК-4 18-09 К</string>
+    <string name="grop2_17">Э 18-09 Р</string>
+    <string name="grop2_18">ЕжА 18-09 К</string>
+
+    <string name="grop1_1">П1-19К</string>
+    <string name="grop1_2">П2-19К</string>
+    <string name="grop1_3">П3-19Р</string>
+    <string name="grop1_4">П4-19Р</string>
+    <string name="grop1_5">ПД1-19Р</string>
+    <string name="grop1_6">ПД2-19Р</string>
+    <string name="grop1_7">ПД3-19К</string>
+    <string name="grop1_8">ПД4-19К</string>
+    <string name="grop1_9">ТЗИ-19Р</string>
+    <string name="grop1_10">ТЗИ1Д-19Р</string>
+    <string name="grop1_11">АҚТ-19К</string>
+    <string name="grop1_12">ИС-19Р</string>
+    <string name="grop1_13">ИСД-19Р</string>
+    <string name="grop1_14">АЖ-19К</string>
+    <string name="grop1_15">С-19Р</string>
+    <string name="grop1_16">С-19К</string>
+    <string name="grop1_17">МК-19К</string>
+    <string name="grop1_18">ЕжА-19К</string>
+    <string name="grop1_19">Д-19Р</string>
+
+
+    <string name="tab_text_1">ПН</string>
+    <string name="tab_text_2">ВТ</string>
+    <string name="tab_text_3">СР</string>
+    <string name="tab_text_4">ЧТ</string>
+    <string name="tab_text_5">ПТ</string>
+    <string name="tab_text_6">СБ</string>
+
+
+
+    <string name="google">Войти через Google</string>
+    <string name="back">Выйти</string>
+    <string name="tv_kobineti">ПО КАБИНЕТАМ</string>
+    <string name="tv_kobinet">КОБИНЕТЫ</string>
+    <string name="etaj3">3 Этаж</string>
+    <string name="etaj5">5 Этаж</string>
+    <string name="etaj6">6 Этаж</string>
+    <string name="etaj7">7 Этаж</string>
+    <string name="tv_prepodavateli">ПО ПРЕПОДАВАТЕЛЯМ</string>
+    <string name="tv_pogroup">ПО ГРУППАМ</string>
+    <string name="kurs1">1 Курс</string>
+    <string name="kurs2">2 Курс</string>
+    <string name="kurs3">3 Курс</string>
+    <string name="kurs4">4 Курс</string>
+    <string name="tv_innov">Инновационный Технический Колледж</string>
+    <string name="mug1">ПЦК «Вычислительная техника и программное обеспечение»</string>
+    <string name="mug2">ПЦК «Общепрофессиональных и специальных дисциплин»</string>
+    <string name="mug3">ПЦК «Языковых дисциплин»</string>
+    <string name="mug4">ПЦК «Общеобразовательных и социально-экономических дисциплин»</string>
+    <string name="rasp">РАСПИСАНИЕ УРОКОВ</string>
+    <string name="email">Эл. адрес</string>
+    <string name="passworld">Пароль</string>
+    <string name="name">Имя и Фамилия</string>
+    <string name="phone">Телефон</string>
+    <string name="zapomnit">Запомнить меня</string>
+    <string name="podajdite">Пожалуйста подождите...</string>
+    <string name="dobro">Добро пожаловать</string>
+    <string name="oshibka">Ошибка входа</string>
+    <string name="plize">Пожалуйста войдите</string>
+    <string name="vvedite">Введите все данные для входа</string>
+    <string name="zopomnil">Я вас запомнил</string>
+    <string name="nezopomnil">Я вас незапомнил</string>
+    <string name="otmen">Отменить</string>
+    <string name="o4_po4ta">Введите Вашу почту</string>
+    <string name="o4_parol">Введите пароль, который более 5 символов</string>
+    <string name="o4_tel">Введите Ваш телефон</string>
+    <string name="o4_imya">Введите Ваши имя и фамилию</string>
+    <string name="o4ibka">Ошибка авторизации. </string>
+    <string name="zateg_d">Введите все данные для регистрации</string>
+    <string name="dobavit">Добавить</string>
+    <string name="pol_dobavlen">Пользователь добавлен!</string>
+    <string name="vib_yazik">Выберите язык</string>
+    <string name="izm_yazik">Изменить язык</string>
+    <string name="zabili_par">Забыли Ваш пароль?</string>
+    <string name="vvedite_dan">Введите все данные для восстановления пароля</string>
+    <string name="vost">Восстоновить</string>
+    <string name="re_pass">Проверьте вашу почту для изменение пароля</string>
+    <string name="pr_re_pass">Проверьте правильность ввода адреса электронной почты</string>
+    <string name="proverte_po4">Проверьте вашу почту для подтверждения Email адреса</string>
+    <string name="proverte_prav">Проверьте правильность ввода адреса электронной почты</string>
+    <string name="todo">TODO</string>
+    <string name="viti">Пожалуйста</string>
+    <string name="viti1">Нажмите « НАЗАД » еще раз, чтобы выйти</string>
+    <string name="viti2">Да</string>
+    <string name="viti3">Нет</string>
+    <string name="success">Успесшно!</string>
+    <string name="error">Ошибка!</string>
+    <string name="worning">Предупреждение!</string>
+
+
+</resources>

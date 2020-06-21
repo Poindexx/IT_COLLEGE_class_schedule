@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819623413739",
+    "firebase_url": "https://it-collee01.firebaseio.com",
+    "project_id": "it-collee01",
+    "storage_bucket": "it-collee01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819623413739:android:1845ee857398eae74abbae",
+        "android_client_info": {
+          "package_name": "kz.itcollege.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819623413739-8tarmvckcdn3b5fg1d6843aua3i2o0do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.itcollege.myapplication",
+            "certificate_hash": "d377ad60963791abf8bcaf5d487f09a4b2ab8ee8"
+          }
+        },
+        {
+          "client_id": "819623413739-fvtmdlhhs9e7anrhsed9sin5t99tcd7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRtuwidAHj4cq5sbamDJZXTCuZdEvIpJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819623413739-fvtmdlhhs9e7anrhsed9sin5t99tcd7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
