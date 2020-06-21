@@ -3,6 +3,8 @@ View Android IT College’s online class schedule
 
 my site and contacts:  https://poindexx.tk/
 
+apk download: https://github.com/Poindexx/IT_COLLEGE_class_schedule/blob/master/app/release/app-release.apk
+
 Splash: 
 ![alt text](https://github.com/Poindexx/IT_COLLEGE_class_schedule/blob/master/app/src/main/res/drawable/1.jpg "Logo 1")
 
